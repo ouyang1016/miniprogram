@@ -1,0 +1,21 @@
+<image class='banner_img' src='/img/banner001.png'></image>
+<view class=''></view>
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>风控是互联网金融平台的核心。惠财金融的风险管理体系具有国际金融机构专业水准，历史年化较同业更突出，是国内领先的综合理财交易平台，并受到知名经济学家力荐。惠财金融自主研发构建了包含9大维度、111项指标第3代信用表达体系在内的风控数据模型体系，最大程度规避平台运营风险和保障用户权益。目前已经成为行业内的参考标杆。</text>
+</view>
+
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>主要来自大型商业银行、知名证券公司等金融机构，以及阿里巴巴、腾讯等国内一流互联网企业，通过32道工序甄选投资项目，将项目安全做到极致。</text>
+</view>
+
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>主要来自大型商业银行、知名证券公司等金融机构，以及阿里巴巴、腾讯等国内一流互联网企业，通过32道工序甄选投资项目，将项目安全做到极致。</text>
+</view>
+
+<view class='footer'>
+  <button bindtap='tell'>电话咨询</button>
+  <button bindtap='copy'>复制内容</button>
+</view>

@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image swiper_img" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='pro_list'>
+  <view class='pro_item' wx:for='{{proList}}' bindtap='toDetail' data-item='{{item}}'>
+    <image class='pro_logo' src='{{item.img}}'></image>
+    <view class='pro_body'>
+      <view class='pro_title'>{{item.title}}</view>
+      <text>{{item.text}}</text>
+      <view class='pro_footer'>
+        <image class='btn_detail' src='/img/btn_detail.png'></image>
+        <button class='btn_ask' open-type="contact"><image src='/img/btn_ask.png'></image></button>
+        
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/detail/detail.wxml-->
+<view>获取值：{{titleName}}</view>
+<view>获取值：{{textName}}</view>
+

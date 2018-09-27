@@ -33,7 +33,7 @@ Page({
   },
   postProList:function(){
     wx.request({
-      url: 'https://test01m.88huicai.com/api/v2/pub/banner/open_auth/list/APP_BRAND_PUBLICITY_HOME',
+      url: '/api/v2/pub/banner/open_auth/list/APP_BRAND_PUBLICITY_HOME',
       method:'post',
       success:function(res){
         console.log(res.data)
